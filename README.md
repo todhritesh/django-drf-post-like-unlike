@@ -5,10 +5,13 @@
   - py -m venv venv
   - venv\Scripts\activate
   - pip install -r req.txt
+  - py manage.py runserver
+
 - linux
   - python3 -m venv venv
   - venv/bin/activate
   - pip install -r req.txt
+  - py manage.py runserver
 
 
 ### endpoints - just create json file and import in thunder client in vscode
